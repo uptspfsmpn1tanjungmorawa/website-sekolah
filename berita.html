@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita & Artikel - UPT SPF SMP NEGERI 1 TANJUNG MORAWA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style   >
+    .news-search {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.search-box {
+    width: 100%; /* Agar memenuhi lebar container */
+    max-width: 600px; /* Batas maksimal agar tidak terlalu panjang di layar lebar */
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px; /* Membuat sudut membulat */
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+</style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="poto/logodeli.png" alt="logodeli">
+                    <img src="poto/logotut.png" alt="logotut">
+                    <h2>UPT SPF SMP NEGERI 1 TANJUNG MORAWA</h2>
+                </div>
+                        <ul class="nav-menu">
+    <li class="nav-item">
+        <a href="index.html" class="nav-link active">Beranda</a>
+    </li>
+    <li class="nav-item">
+        <a href="index.html#profil" class="nav-link">Profil</a>
+    </li>
+    <li class="nav-item">
+        <a href="index.html#visi-misi" class="nav-link">Visi & Misi</a>
+    </li>
+    <li class="nav-item">
+        <a href="login.html" class="nav-link">
+            <i class="fas fa-user-lock"></i>
+        </a>
+    </li>
+</ul>
+                <div class="hamburger">
+                    <i class="fas fa-home" style="font-size: 1.5rem;"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- News Header -->
+    <section class="news-header">
+        <div class="container">
+            <h2 class="section-title">Berita Terkini</h2>
+            <p>Dapatkan informasi terbaru seputar kegiatan, prestasi, dan pengumuman UPT SPF SMP Negeri 1 Tanjung Morawa.</p>
+        </div>
+    </section>
+
+    <!-- News Content -->
+    <section class="news-container">
+    <div class="container">
+        <div class="news-search">
+    <input type="text" id="search-input" class="search-box" placeholder="Cari berita atau pengumuman...">
+</div></div>
+
+        <div id="container-berita" class="event-grid">
+            </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>UPT SPF SMP NEGERI 1 TANJUNG MORAWA</h3>
+                    <p>Jl.Sei Merah Tanjung Morawa<br>
+                        Kec. Tanjung Morawa, Kab. Deli Serdang<br>
+                    Telp : 082361840242 / 08126575727 / 08116241444<br>
+                    Email : uptspfsmpn1tanjungmorawa@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Media Sosial</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/19TvU7k4Rg/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/smpn1tamora?igsh=djY3a3p1NzdlY2w="><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com/@smpnegeri1tanjungmorawa-o9e?si=37wxvUv_Uum1Vy4w"><i class="fab fa-youtube"></i></a>
+                        <a href="https://wa.me/qr/OQWIDAEKJGYJJ1"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 UPT SPF SMP NEGERI 1 TANJUNG MORAWA. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="java.js"></script>
+</body>
+</html>
