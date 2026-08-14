@@ -270,9 +270,9 @@ async function loadDetailAndSidebar() {
         document.querySelector('.article-title').innerText = berita.judul;
         document.querySelector('.featured-image').src = berita.gambar;
         document.querySelector('.article-meta').innerHTML = 
-            `<i class="fas fa-calendar"></i> ${berita.tanggal} | <i class="fas fa-newspaper"></i> SMA RH`;
+            `<i class="fas fa-calendar"></i> ${berita.tanggal} | <i class="fas fa-newspaper"></i> ADMIN`;
         document.querySelector('.article-body').innerHTML = `<p>${berita.konten_lengkap || berita.isi}</p>`;
-        document.title = `${berita.judul} - SMA SWASTA RAUDHATUL HASANAH`;
+        document.title = `${berita.judul} - UPT SPF SMP NEGERI 1 TANJUNG MORAWA`;
 
         // 2. Ambil Sidebar - Gunakan supabaseClient
         const { data: sidebarData } = await supabaseClient
