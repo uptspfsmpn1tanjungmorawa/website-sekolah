@@ -1,6 +1,6 @@
 // Ganti isi java.js dengan ini
-const SUPABASE_URL = 'https://jtlojyrfwccqebfowlof.supabase.co';
-const SUPABASE_KEY = 'sb_publishable_miw4K1jRQJTEdm1P2sOH-w_kVV6BSBd';
+const SUPABASE_URL = 'https://bbqlwvutpvoyizofjrew.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_hmCik_c6n7_MyHZcUkdYUQ_hGQsnyKG';
 // Pastikan variabel client namanya berbeda dengan library-nya
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
