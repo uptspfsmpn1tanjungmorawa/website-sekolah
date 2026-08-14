@@ -68,15 +68,7 @@ body {
         height: 60px; /* Kurangi tinggi navbar di HP */
         justify-content: space-between;
     }
-.hero {
-        min-height: 40vh; 
-        height: 40vh;
-        background-size: contain; /* Memastikan foto tampil utuh tanpa dipotong */
-        background-repeat: no-repeat;
-        background-position: center;
-        background-color: #f8f9ff; /* Warna background untuk mengisi ruang kosong */
-        margin-top: 60px; /* Mendorong foto ke bawah agar tidak tertutup navbar */
-    }
+
     .logo h2 {
         font-size: 0.9rem; /* Lebih kecil lagi untuk layar sangat sempit */
         color: #002fff;
@@ -331,7 +323,15 @@ section {
         margin-bottom: 20px;
     }
 }
-
+.hero {
+        min-height: 40vh; 
+        height: 40vh;
+        background-size: contain; /* Memastikan foto tampil utuh tanpa dipotong */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #f8f9ff; /* Warna background untuk mengisi ruang kosong */
+        margin-top: 60px; /* Mendorong foto ke bawah agar tidak tertutup navbar */
+    }
 .profil-text h3 {
     font-size: 1.4em;
     color: #4A90E2;
