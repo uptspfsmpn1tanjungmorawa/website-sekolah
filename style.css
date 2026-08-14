@@ -132,15 +132,17 @@ body {
     color: #ff1e00; /* Berubah jadi warna emas saat di-hover */
 }
 /* Hero Section */
+/* Pengaturan Utama (Desktop/Laptop) */
 .hero {
     min-height: 100vh;
+    height: 100vh;
+    width: 100%; /* Memastikan gambar memenuhi lebar layar laptop */
     display: flex;
     align-items: center;
-    /*background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);*/
     background-image: url(poto/siswa.jpg);
-    background-size:cover ;
-    background-position: center;
-    height: 100vh;
+    background-size: cover; /* Memaksa gambar menutupi seluruh area */
+    background-position: center; /* Memastikan titik tengah gambar yang difokuskan */
+    background-repeat: no-repeat;
     color: rgb(4, 20, 243);
     position: relative;
     overflow: hidden;
@@ -323,15 +325,7 @@ section {
         margin-bottom: 20px;
     }
 }
-.hero {
-        min-height: 40vh; 
-        height: 40vh;
-        background-size: contain; /* Memastikan foto tampil utuh tanpa dipotong */
-        background-repeat: no-repeat;
-        background-position: center;
-        background-color: #f8f9ff; /* Warna background untuk mengisi ruang kosong */
-        margin-top: 60px; /* Mendorong foto ke bawah agar tidak tertutup navbar */
-    }
+
 .profil-text h3 {
     font-size: 1.4em;
     color: #4A90E2;
@@ -574,7 +568,15 @@ section {
     .hamburger {
         display: flex;
     }
-    
+    .hero {
+        min-height: 40vh; 
+        height: 40vh;
+        background-size: contain; /* Memastikan foto tampil utuh tanpa dipotong */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #f8f9ff; /* Warna background untuk mengisi ruang kosong */
+        margin-top: 60px; /* Mendorong foto ke bawah agar tidak tertutup navbar */
+    }
     .nav-menu {
         position: fixed;
         left: -100%;
